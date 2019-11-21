@@ -1,0 +1,193 @@
+.coffee-machine {
+    width: 370px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+  }
+  .head {
+    margin: 5px;
+    background-color: #8e8e8d;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    height: 100px;
+  }
+  .interface {
+    margin: 20px;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    background-color: green;
+    border: 5px solid black;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .middle {
+    margin: 0px 5px 5px;
+    width: 90px;
+    background-color: #8e8e8d;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 370px;
+    float: right;
+  }
+  .button-start {
+    margin: auto;
+    margin-top: 30px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+    cursor: pointer;
+  }
+  .money {
+    background-color: brown;
+    border-radius: 5px;
+    height: 100px;
+    width: 80px;
+    border: 3px solid black;
+    margin: 10px auto;
+  }
+  .reception {
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  .reception::after {
+    content: "";
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .exit {
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    margin: auto;
+  }
+  .change {
+    background-color: red;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+    margin: auto;
+    cursor: pointer;
+  }
+  .platform-head {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left: 45px;
+  }
+  .platform-footer {
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 490px;
+    left: 45px;
+  }
+  .tube {
+    width: 20px;
+    height: 100px;
+    background-color: bisque;
+    position: absolute;
+    top: 170px;
+    left: 130px;
+  }
+  .coffe-water {
+    width: 14px;
+    height: 0px;
+    transition: height 0.4s linear;
+    position: absolute;
+    background-color: #5f0f02;
+    top: 270px;
+    left: 133px;
+  }
+  .glass {
+    width: 90px;
+    height: 150px;
+    background-color: #00ffff6e;
+    border: 1px solid black;
+    position: absolute;
+    top: 338px;
+    left: 95px;
+  }
+  .cof {
+    transition: height 1s linear;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    background-color: #5f0f02;
+    bottom: 0;
+  }
+  .footer {
+    clear: both;
+    margin: 5px;
+    background-color:#8e8e8d;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 90px;
+  }
+  .coffee {
+    width: 100px;
+    background-color:#6f4e37;
+    padding: 10px 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  .cappuccino {
+    width: 100px;
+    background-color: rgb(0, 255, 76);
+    padding: 10px 5px;
+    border-radius: 5px;
+    position: absolute;
+    top:190px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  .americano {
+    width: 100px;
+    background-color: fuchsia;
+    padding: 10px 5px;
+    border-radius: 5px;
+    position: absolute;
+    top:260px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  .water {
+    width: 100px;
+    background-color: blue;
+    padding: 10px 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 130px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  .water:hover, .cappuccino:hover, .americano:hover, .change:hover, .button-start:hover, .coffee:hover, .reception:hover {
+    opacity: 0.7;
+  }
